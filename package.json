@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "commitizen": "^2.7.6",
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "devDependencies": {
     "cz-conventional-changelog": "^2.1.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "npx git-cz"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/supreme429/myBase/issues"
   },
-  "homepage": "https://github.com/supreme429/myBase#readme"
+  "homepage": "https://github.com/supreme429/myBase#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
