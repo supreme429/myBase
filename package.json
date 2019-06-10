@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "myBaseZone",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-cli": "^2.9.6"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
@@ -13,6 +16,7 @@
     "cz-conventional-changelog": "^1.2.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
+    "lodash": "^4.17.11",
     "mini-css-extract-plugin": "^0.7.0",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.3",
