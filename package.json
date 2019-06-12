@@ -1,0 +1,46 @@
+{
+  "name": "mybase",
+  "version": "1.0.0",
+  "description": "myBaseZone",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-cli": "^2.9.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "commitizen": "^2.10.1",
+    "css-loader": "^2.1.1",
+    "cz-conventional-changelog": "^1.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.7.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supreme429/myBase.git"
+  },
+  "keywords": [],
+  "author": "supreme429",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supreme429/myBase/issues"
+  },
+  "homepage": "https://github.com/supreme429/myBase#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
