@@ -17,4 +17,5 @@ to bundle your application
 
 https://juejin.im/post/5c662a7de51d4562e71c4277
 
-# test config user.name
+# add tips
+https://www.jianshu.com/p/d179a21b0bef
